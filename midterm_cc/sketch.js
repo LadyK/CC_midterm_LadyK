@@ -10,7 +10,7 @@ let scene3;
 
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(1200, 1200);
   background(0);
   lastTime = 0;
   interval = 10000;
@@ -21,7 +21,7 @@ function setup() {
 
 function draw() {
 
-  if(frameCount < 500){  // one trick pony; sketch has to be refreshed to repeat
+  if(frameCount < 800){  // one trick pony; sketch has to be refreshed to repeat
     background(0);
 
   }
@@ -43,6 +43,9 @@ function draw() {
   }
 
   if(scene2 == true){
+    //runScene2();
+  }
+  if(scene3 == true){
     //runScene2();
   }
 
